@@ -59,18 +59,74 @@ void ListarAlunos()
 {
     Console.Clear();
     ExibirTituloDaOpcao("Lista de Alunos");
+    foreach (string aluno in listaDeAlunos.Keys)
+    {
+        Console.WriteLine(aluno);
+    }
+    Console.WriteLine("\nDigite qualquer tecla para volta ao menu");
+    Console.ReadKey();
+    Apresentacao();
 }
 
 void ExibirNotas()
 {
     Console.Clear();
     ExibirTituloDaOpcao("Exibir notas");
+    Console.Write("Digite o nome do aluno que deseja visualizar as notas: ");
+    string nomeDoAluno = Console.ReadLine()!;
+
+    if (listaDeAlunos.ContainsKey(nomeDoAluno))
+    {
+        Console.WriteLine($"\nCarregando as notas de {nomeDoAluno}\n");
+        Thread.Sleep(1000);
+        foreach (int nota in listaDeAlunos[nomeDoAluno])
+        {
+            Console.WriteLine(nota);
+        }
+        Console.WriteLine("\nDigite qualquer tecla para volta ao menu");
+        Console.ReadKey();
+        Apresentacao();
+    }
+    else
+    {
+        Console.WriteLine("Aluno inexistente!");
+        Console.WriteLine("\nDigite qualquer tecla para volta ao menu");
+        Console.ReadKey();
+        Apresentacao();
+    }
 }
 
 void CalcularMedia()
 {
     Console.Clear();
     ExibirTituloDaOpcao("Calcular média");
+    Console.Write("Digite o nome do aluno que deseja calcular a média: ");
+    string nomeDoAluno = Console.ReadLine()!;
+
+    if (listaDeAlunos.ContainsKey(nomeDoAluno))
+    {
+        Console.WriteLine($"\nCalculando a média de {nomeDoAluno}\n");
+        Thread.Sleep(1000);
+        int qntDeNotas = 0;
+        int somaDasNotas = 0;
+        foreach (int nota in listaDeAlunos[nomeDoAluno])
+        {
+            qntDeNotas++;
+            somaDasNotas += nota;
+        }
+        int mediaDoAluno = somaDasNotas / qntDeNotas;
+        Console.WriteLine($"A média de {nomeDoAluno} é de: {mediaDoAluno}");
+        Console.WriteLine("\nDigite qualquer tecla para volta ao menu");
+        Console.ReadKey();
+        Apresentacao();
+    }
+    else
+    {
+        Console.WriteLine("Aluno inexistente!");
+        Console.WriteLine("\nDigite qualquer tecla para volta ao menu");
+        Console.ReadKey();
+        Apresentacao();
+    }
 }
 
 void ExibirTituloDaOpcao(string titulo)
