@@ -1,0 +1,15 @@
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\bin\Debug\net8.0\Portal_De_Notas.exe
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\bin\Debug\net8.0\Portal_De_Notas.deps.json
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\bin\Debug\net8.0\Portal_De_Notas.runtimeconfig.json
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\bin\Debug\net8.0\Portal_De_Notas.dll
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\bin\Debug\net8.0\Portal_De_Notas.pdb
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.AssemblyInfoInputs.cache
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.AssemblyInfo.cs
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.csproj.CoreCompileInputs.cache
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.sourcelink.json
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.dll
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\refint\Portal_De_Notas.dll
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.pdb
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\Portal_De_Notas.genruntimeconfig.cache
+C:\Users\joaov\source\repos\Portal_De_Notas\Portal_De_Notas\obj\Debug\net8.0\ref\Portal_De_Notas.dll
