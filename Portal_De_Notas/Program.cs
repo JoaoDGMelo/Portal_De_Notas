@@ -107,15 +107,8 @@ void CalcularMedia()
     {
         Console.WriteLine($"\nCalculando a média de {nomeDoAluno}\n");
         Thread.Sleep(1000);
-        int qntDeNotas = 0;
-        int somaDasNotas = 0;
-        foreach (int nota in listaDeAlunos[nomeDoAluno])
-        {
-            qntDeNotas++;
-            somaDasNotas += nota;
-        }
-        int mediaDoAluno = somaDasNotas / qntDeNotas;
-        Console.WriteLine($"A média de {nomeDoAluno} é de: {mediaDoAluno}");
+        List<int> mediaDoAluno = listaDeAlunos[nomeDoAluno];
+        Console.WriteLine($"A média de {nomeDoAluno} é de: {mediaDoAluno.Average()}");
         Console.WriteLine("\nDigite qualquer tecla para volta ao menu");
         Console.ReadKey();
         Apresentacao();
